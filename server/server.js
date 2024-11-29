@@ -1,5 +1,7 @@
 import express from "express";
 import "dotenv/config";
+import path from 'path';
+const __dirname = path.resolve();
 import {
   ApiError,
   CheckoutPaymentIntent,
